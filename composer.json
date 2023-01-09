@@ -1,0 +1,22 @@
+{
+  "name": "shucream0117/discord-php",
+  "description": "Discord client for PHP",
+  "keywords": ["discord"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shucream0117"
+    }
+  ],
+  "require": {
+    "php": "^7.4.0",
+    "guzzlehttp/guzzle": "^6.5",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shucream0117\\DiscordPHP\\": "src/"
+    }
+  }
+}
