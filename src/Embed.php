@@ -42,7 +42,7 @@ class Embed
 
     public function setColor(?string $color): self
     {
-        $this->data['color'] = hexdec($color);
+        $this->data['color'] = is_null($color) ? null : hexdec($color);
         return $this;
     }
 
